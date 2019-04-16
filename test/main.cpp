@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../03/histogram.h"
+#include "../histogram.h"
 #include <cassert>
 using namespace std;
 
@@ -54,4 +54,6 @@ int main()
     test_positive3();
     test_positive4();
     test_positive5();
+    return 0;
+
 }
