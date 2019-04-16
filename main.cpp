@@ -77,8 +77,8 @@ vector<double> numbers = input_numbers(number_count);
     cin >> bin_count;
 
     //Обрабока результатов
-   double min, max;
-find_minmax(numbers, min, max);
+   double min=0, max=0;
+find_minmax(numbers, &min, &max);
 
 
 vector<size_t> bins = make_histogram(numbers, bin_count,min,max);
